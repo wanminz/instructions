@@ -78,6 +78,13 @@ ul {
   padding-bottom: 1.1em;
 }
 
+#do li,
+#do-not li {
+  padding-bottom: 1em;
+  list-style-type: disc;
+  margin-left: 1em;
+}
+
 b {
   font-weight: 700;
 }
