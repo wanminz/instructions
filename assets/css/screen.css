@@ -34,9 +34,10 @@ h2 {
 
 .nav li {
   font-family: "Calistoga";
+  font-size: 0.9em;
   list-style-type: none;
   padding: 0.5em;
-  margin-top: -3em;
+  margin-top: -3.5em;
   margin-right: -1.5em;
 }
 
