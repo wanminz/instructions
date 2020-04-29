@@ -85,16 +85,17 @@ b {
   font-weight: 700;
 }
 
-#conclusion img {
+#conclusion h2 {
+  margin-top: -1em;
+}
+
+#conclusion img,
+#footer img {
   width: 50%;
 }
 
 #footer {
   margin-top: 1em;
-}
-
-#footer img {
-  width: 50%;
 }
 
 .copyright {
