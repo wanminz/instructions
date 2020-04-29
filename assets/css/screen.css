@@ -7,7 +7,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles... */
 html {
-  display: flex;
   font-family: "Tinos";
   font-size: 1.2em;
 }
@@ -22,6 +21,19 @@ h2 {
   padding-left: 1.2em;
   padding-right: 1em;
   padding-bottom: 0.5em;
+  margin-top: -1.5em;
+}
+
+#navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 1em;
+  padding-bottom: 1.1em;
+}
+
+.nav li {
+  list-style-type: none;
 }
 
 p,
@@ -31,6 +43,16 @@ ul {
   padding-bottom: 1.5em;
 }
 
-.nav {
-  margin-top: 1em;
+#do-not {
+  list-style-type: disc;
+  padding-bottom: 1.1em;
+}
+
+b {
+  font-weight: 700;
+}
+
+.copyright {
+  font-size: 0.8em;
+  text-align: center;
 }
